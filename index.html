@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+    <header>
+        <div class="navdiv flex">
+            <nav class="flex">
+                <span><img src="spotify-logo.svg" class="Spotify" alt="" srcset=""></span>
+                <img src="home-logo.svg" class="home" alt="logo" srcset="">
+                <div class="searchbox flex">
+                    <button class="searchbox-i"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <input id="text" type="text" , placeholder="what do you want to play?">
+                    <img src="serch.svg" alt="" class="search" srcset=""></span>
+                </div>
+                <div class="premiumbutton-div">
+                    <button class="premiumbutton">
+                        <img src="premium.svg" alt="" srcset="" class="premium">
+                    </button>
+                </div>
+                <button class="premiumbtn buttons">Premium</button>
+                <button class="support buttons">Support</button>
+                <button class="download buttons">Download</button>
+                <div class="empty"></div>
+                <button class="install">
+                    <img src="install.svg" alt="" srcset="" class="installsvg">
+                    <span class="install">Install App</span>
+
+                </button>
+                <button class="signup">Sign Up</button>
+                <button class="login">Login</button>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container flex">
+            <header>
+                <div class="left flex">
+                    <div class="left-box-div">
+                        <div class="left-box-text flex"><span>Your library</span>
+                            <button class="left-box-text-plus">
+                                <img src="left-box-text-plus.svg" alt="" srcset="">
+                            </button>
+                        </div>
+                        <div class="scrollbar">
+                            <div class="header-part-two">
+                                <span>Create Your First List</span>
+                                <p>It's easy,we'll help you</p>
+                                <div class="header-part-two-div">
+                                    <button>Create Playlist</button>
+
+                                </div>
+                            </div>
+
+                            <div class="header-part-three">
+                                <span>Let's find some podcasts to follow</span>
+                                <p>We will keep your update on new episodes</p>
+                                <div class="header-part-three-div">
+                                    <button>Browser Podcasts</button>
+                                </div>
+                            </div>
+                        </div>
+                        <footer>
+                            <div class="left-footer">
+                                <div class="list">
+                                    <ul>
+                                        <a href="legal">Legal</a>
+                                        <a href="Safety&PrivacyCenter">Safety&PrivacyCenter</a>
+                                        <a href="Privacy Policy">Privacy Policy</a>
+                                        <a href="Cookies">Cookies</a>
+                                        <a href="About Ads">About Ads</a>
+                                        <a href="Acessibility">Acessibility</a>
+                                        <span><a href="Cookies">Cookies</a></span>
+                                    </ul>
+                                </div>
+                                <button class="english-btn">
+                                    <img src="english-btn.svg" alt="" srcset="">
+                                    <span>English</span>
+
+                                </button>
+                            </div>
+                             <audio  id="audio" src="songs/song1.mp3"></audio>
+                             <audio  id="audio2" src="songs/song2.mp3"></audio>
+                             <audio  id="audio3" src="songs/song3.mp3"></audio>
+                             <audio  id="audio4" src="songs/song4.mp3"></audio>
+                             <audio  id="audio5" src="songs/song5.mp3"></audio>
+                        </footer>
+                    </div> 
+                </div>
+            </header>
+            <div class="right border">
+                <div class=" right-div-photo">
+                    <img src="newhindimusic.jpg" alt="" srcset="">
+                    <div class="PublicPlaylist-div">
+                        <span>PublicPlaylist</span>
+                        <h1>New Music Hindi</h1>
+                        <div class="h4-text">
+                            Fresh from the recording to your ears,Latest Hindi music,right here.Cover Awarapan 2
+                        </div>
+                        <div class="spotify-img">
+                            <img src="spotify-img" alt="" srcset="">
+                            <span>Spotify . 1,015,366saves . 75songs,about 4 hr 45 min</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-div-next">
+                    <header>
+                        <div class="playbutton-container">
+                            <button id="previousbtn">
+                                <img src="previous.svg" alt="">
+                            </button>
+                            <div class="playbutton-svg">
+                                <button id="playbutton">
+                                  <img id="playsvg" src="playbtn.svg" alt="" srcset="">
+                                </button>
+                            </div>
+                            <button id="nextbtn">
+                                <img src="next.svg" alt="" srcset="">
+
+                            </button>
+                            <span class="playbutton-svg-span">
+                                <img src="playbtn-plus.svg" alt="" srcset="">
+                                <img src="playbtn-dot.svg" alt="" srcset="">
+                            </span>
+                            <button class="listbtn-svg">
+                                <span>List</span>
+                                <img src="list-svg.svg" alt="" srcset="">
+                            </button>
+                        </div>
+                    </header>
+                </div>
+                <main>
+                    <div class="container-right-main">
+                        <div class="hash">
+                            <span class="hash-leftmargin"> # Title</span>
+                            <span class="album-leftmargin">Album</span>
+                            <span class="date-leftmargin">Date added</span>
+                            <img src="hash-svg.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="allsongs-div">
+                        <div class="song1 allsong">
+                            <span>1</span>
+                            <img src="assests/images/song1.jpg" alt="" srcset="">
+                            <div id="song1" class="song1-text">Tera Mera Rishta Continues (Film Ballad) (From "Awarapan 2")</a>
+                                <div class="mutiple-anchortag">
+                                    <a>Mithoon,</a>
+                                    <a>Pritam,</a>
+                                    <a>Mustafa Zahid,</a>
+                                    <a>Sayeed Quadri,</a>
+                                    <a>Saaj Bhatt,</a>
+                                    <a>Subodhh Sharma</a>
+                                </div>
+                            </div>
+                            <div class="song1-text2">Tera Mera Rishta Continues (Film Ballad) [From "Awarapan 2"]</a>
+                            </div>
+                            <span class="song1-text-date">21 hours ago</span>
+                            <div class="song1-text-date-svg">
+                                <img src="playbtn-plus.svg" alt="">
+                                <span class="time-svg">6:06
+                                    <img src="playbtn-dot.svg" alt="" srcset="">
+                                </span>
+                            </div>
+
+                        </div>
+
+
+                        <div class="allsongs-div">
+                            <div class="song1 allsong">
+                                <span>2</span>
+                                <img src="assests/images/song2.jpg" alt="" srcset="">
+                                <div id="song2" class="song1-text">Tabassum - From
+                                        "Batwara 1947">
+                                    <div class="mutiple-anchortag">
+                                        <a>A.R. Rahman,</a>
+                                        <a>Javed Akhtar,</a>
+                                        <a>Sonu Nigam,</a>
+                                        <a>Heer</a>
+                                    </div>
+                                </div>
+                                <div class="song1-text2">Tabassum - From "Batwara 1947"</a>
+                                </div>
+                                <span class="song1-text-date">21 hours ago</span>
+                                <div class="song1-text-date-svg">
+                                    <img src="playbtn-plus.svg" alt="">
+                                    <span class="time-svg">5:20
+                                        <img src="playbtn-dot.svg" alt="" srcset="">
+                                    </span>
+                                </div>
+
+                            </div>
+
+                            <div class="allsongs-div">
+                                <div class="song1 allsong">
+                                    <span>3</span>
+                                    <img src="assests/images/song3.jpg" alt="" srcset="">
+                                    <div id="song3" class="song1-text">Barsaat Lagdi Ae</a>
+                                        <div class="mutiple-anchortag">
+                                            <a>Darshan Raval,</a>
+                                            <a>Simran Choudhary,</a>
+                                            <a>Youngveer</a>
+                                        </div>
+                                    </div>
+                                    <div class="song1-text2">Barsaat Lagdi Ae</a>
+                                    </div>
+                                    <span class="song1-text-date">21 hoursago</span>
+                                    <div class="song1-text-date-svg">
+                                        <img src="playbtn-plus.svg" alt="">
+                                        <span class="time-svg">4:06
+                                            <img src="playbtn-dot.svg" alt="" srcset="">
+                                        </span>
+                                    </div>
+
+                                </div>
+
+
+                                <div class="allsongs-div">
+                                    <div class="song1 allsong">
+                                        <span>4</span>
+                                        <img src="assests/images/song4.jpg" alt="" srcset="">
+                                        <div id="song4" class="song1-text">Banger</a>
+                                            <div class="mutiple-anchortag">
+                                                <a>Badshah,</a>
+                                                <a>Hiten,</a>
+                                                <a>Sharvi Yadav</a>
+                                            </div>
+                                        </div>
+                                        <div class="song1-text2">Banger</a>
+                                        </div>
+                                        <span class="song1-text-date">21 hours ago</span>
+                                        <div class="song1-text-date-svg">
+                                            <img src="playbtn-plus.svg" alt="">
+                                            <span class="time-svg">3:06
+                                                <img src="playbtn-dot.svg" alt="" srcset="">
+                                            </span>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="allsongs-div">
+                                        <div class="song1 allsong">
+                                            <span>5</span>
+                                            <img src="assests/images/song5.jpg" alt="" srcset="">
+                                            <div id="song5" class="song1-text">Yeh
+                                                    Awarapan (From "Awarapan 2")</a>
+                                                <div class="mutiple-anchortag">
+                                                    <a>Amaal Mallik,</a>
+                                                    <a>Arijit Singh,</a>
+                                                    <a>Rashmi Virag</a>
+                                                </div>
+                                            </div>
+                                            <div class="song1-text2">
+                                                <a href="Yeh Awarapan (From " Awarapan 2")>Yeh Awarapan (From "Awarapan
+                                                    2")</a>
+                                            </div>
+                                            <span class="song1-text-date">21 hours ago</span>
+                                            <div class="song1-text-date-svg">
+                                                <img src="playbtn-plus.svg" alt="">
+                                                <span class="time-svg">2:07
+                                                    <img src="playbtn-dot.svg" alt="" srcset="">
+                                                </span>
+                                            </div>
+
+                                        </div>
+
+
+                                        <div class="allsongs-div">
+                                            <div class="song1 allsong">
+                                                <span>6</span>
+                                                <img src="assests/images/song6.jpg" alt="" srcset="">
+                                                <div class="song1-text"><a href="Gaya Kaam Se">Gaya Kaam Se</a>
+                                                    <div class="mutiple-anchortag">
+                                                        <a href="Armaan Malik">Armaan Malik,</a>
+                                                        <a href="Bhrigu Parashar">Bhrigu Parashar</a>
+                                                    </div>
+                                                </div>
+                                                <div class="song1-text2">
+                                                    <a href="Gaya Kaam Se">Gaya Kaam Se</a>
+                                                </div>
+                                                <span class="song1-text-date">21 hoursago</span>
+                                                <div class="song1-text-date-svg">
+                                                    <img src="playbtn-plus.svg" alt="">
+                                                    <span class="time-svg">3:20
+                                                        <img src="playbtn-dot.svg" alt="" srcset="">
+                                                    </span>
+                                                </div>
+
+                                            </div>
+
+
+
+                                            <div class="song1 allsong">
+                                                <span>7</span>
+                                                <img src="assests/images/song7.jpg" alt="" srcset="">
+                                                <div class="song1-text"><a href="Madhosh - From " Toxic">Madhosh - From
+                                                        "Toxic"</a>
+                                                    <div class="mutiple-anchortag">
+                                                        <a href="Tanishk Bagchi">Tanishk Bagchi,</a>
+                                                        <a href="Faheem Abdullah">Faheem Abdullah,</a>
+                                                        <a href="Arslan Nizami">Arslan Nizami,</a>
+                                                        <a href="Siddharth Basrur">Siddharth Basrur</a>
+                                                    </div>
+                                                </div>
+                                                <div class="song1-text2">
+                                                    <a href="Madhosh - From " Toxic")>Madhosh - From "Toxic"</a>
+                                                </div>
+                                                <span class="song1-text-date">21 hours ago</span>
+                                                <div class="song1-text-date-svg">
+                                                    <img src="playbtn-plus.svg" alt="">
+                                                    <span class="time-svg">4:07
+                                                        <img src="playbtn-dot.svg" alt="" srcset="">
+                                                    </span>
+                                                </div>
+
+                                            </div>
+
+
+                                            <div class="allsongs-div">
+                                                <div class="song1 allsong">
+                                                    <span>8</span>
+                                                    <img src="assests/images/song8.jpg" alt="" srcset="">
+                                                    <div class="song1-text"><a href="Aaja Re Piya">Aaja Re Piya</a>
+                                                        <div class="mutiple-anchortag">
+                                                            <a href="Hansika Pareek">Hansika Pareek,</a>
+                                                            <a href="Khushi Pareek">Khushi Pareek</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="song1-text2">
+                                                        <a href="Aaja Re Piya">Aaja Re Piya</a>
+                                                    </div>
+                                                    <span class="song1-text-date">21 hours ago</span>
+                                                    <div class="song1-text-date-svg">
+                                                        <img src="playbtn-plus.svg" alt="">
+                                                        <span class="time-svg">5:06
+                                                            <img src="playbtn-dot.svg" alt="" srcset="">
+                                                        </span>
+                                                    </div>
+                                                </div>
+
+
+
+                                                <div class="allsongs-div">
+                                                    <div class="song1 allsong">
+                                                        <span>9</span>
+                                                        <img src="assests/images/song9.jpg" alt="" srcset="">
+                                                        <div class="song1-text"><a href="Kho Sa Gaya Hoon">Kho Sa Gaya
+                                                                Hoon</a>
+                                                            <div class="mutiple-anchortag">
+                                                                <a href="OutStation">OutStation</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="song1-text2">
+                                                            <a href="Kho Sa Gaya Hoon">Kho Sa Gaya Hoon</a>
+                                                        </div>
+                                                        <span class="song1-text-date">21 hours ago</span>
+                                                        <div class="song1-text-date-svg">
+                                                            <img src="playbtn-plus.svg" alt="">
+                                                            <span class="time-svg">6:06
+                                                                <img src="playbtn-dot.svg" alt="" srcset="">
+                                                            </span>
+                                                        </div>
+
+                                                    </div>
+
+
+                                                    <div class="allsongs-div">
+                                                        <div class="song1 allsong">
+                                                            <span>10</span>
+                                                            <img src="assests/images/song10.jpg" alt="" srcset="">
+                                                            <div class="song1-text"><a href="Toh Phir Aao - Dobara">Toh
+                                                                    Phir Aao - Dobara</a>
+                                                                <div class="mutiple-anchortag">
+                                                                    <a href="mithoon">Mithoon,</a>
+                                                                    <a href="Pritam">Pritam,</a>
+                                                                    <a href="Mustafa Zahid">Mustafa Zahid,</a>
+                                                                    <a href="Sayeed Quadri">Sayeed Quadri,</a>
+                                                                    <a href="Saaj Bhatt">Saaj Bhatt,</a>
+                                                                    <a href="Subodhh Sharma">Subodhh Sharma</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="song1-text2">
+                                                                <a href="Toh Phir Aao - Dobara">Toh Phir Aao -Dobara</a>
+                                                            </div>
+                                                            <span class="song1-text-date">21 hours ago</span>
+                                                            <div class="song1-text-date-svg">
+                                                                <img src="playbtn-plus.svg" alt="">
+                                                                <span class="time-svg">9:06
+                                                                    <img src="playbtn-dot.svg" alt="" srcset="">
+                                                                </span>
+                                                            </div>
+                                                        </div> 
+                                                    </div>
+                                                    <div class="songs-list-div">
+                                                        <ul class="songs-list">
+                                                            <li>Song1 : Jab Se Tumko Dekha – Romantic Hindi Love Song</li>
+                                                            <li>Song2 : Khwaab Ka Musafir 💫 | Romantic Hindi Song | AI Music | Original Lyrics</li>
+                                                            <li>Song3 : Trending Punjabi Romantic Song | Viral Love Vibes</li>
+                                                            <li>Song4 : Tere Bin Adhura – Emotional Hindi Love Song | Romantic Sad Music</li>
+                                                            <li>Song5 : Golden Era Bollywood Love Song</li>
+                                                        </ul>
+
+                                                    </div>
+
+
+
+
+
+                </main>
+                <footer>
+                    <div class="footer-class">
+                        <div class="h4-1">
+                            <h4>Company</h4>
+                            <ul>
+                                <li><a href="About">About</a></li>
+                                <li><a href="Jobs">Jobs</a></li>
+                                <li><a href="For the Record">For the Record</a></li>
+                            </ul>
+                        </div>
+
+
+                        <div class="h4-1">
+                            <h4>Communities</h4>
+                            <ul>
+                                <li><a href="For Artists">For Artists</a></li>
+                                <li><a href="Developers">Developers</a></li>
+                                <li><a href="Advertising">Advertising</a></li>
+                                <li><a href="Investors">Investors</a></li>
+                                <li><a href="Vendors">Vendors</a></li>
+                            </ul>
+                        </div>
+
+
+
+                        <div class="h4-1">
+                            <h4>Useful links</h4>
+                            <ul>
+                                <li><a href="Support">Support</a></li>
+                                <li><a href="Free Mobile App">Free Mobile App</a></li>
+                                <li><a href="Popular by Country">Popular by Country</a></li>
+                                <li><a href="Import your music">Import your music</a></li>
+                            </ul>
+                        </div>
+
+
+                        <div class="h4-1">
+                            <h4>Spotify Plans</h4>
+                            <ul>
+                                <li><a href="Premium Standard">Premium Standard</a></li>
+                                <li><a href="Premium Platinum">Premium Platinum</a></li>
+                                <li><a href="Premium Student">Premium Student</a></li>
+                                <li><a href="Spotify Free">Spotify Free</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-svg">
+
+                            <div class="insta-class">
+                                <img src="insta.svg" alt="insta" srcset="">
+                            </div>
+
+                            <div class="cross-class">
+                                <img src="cross.svg" alt="insta" srcset="">
+                            </div>
+
+                            <div class="facebook-class">
+                                <img src="facebook.svg" alt="insta" srcset="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="line2"></div>
+                    <div class="line2-spotify-text">
+                        © 2026 Spotify AB
+
+                    </div>
+                </footer>
+            </div>
+            <div class="body-arrow">
+                <img src="body-arrow.svg" alt="" srcset="">
+            </div>
+
+             <script src="scripts.js"></script>
+</body>
+</html>
