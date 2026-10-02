@@ -28,6 +28,6 @@ Gauri Kumari
 
 ## Link Demo
 
-spotify-clone-blue-omega.vercel.app
+https://spotify-clone-blue-omega.vercel.app
 
 
