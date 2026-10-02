@@ -14,7 +14,7 @@ A Spotify-inspired music player web project built using HTML, CSS and JavaScript
 
 ## Technologies Used
 
-- HTML5
+- HTML
 - CSS
 - JavaScript
 
