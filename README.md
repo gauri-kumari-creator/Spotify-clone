@@ -25,3 +25,9 @@ This project helped me practice building a music player interface, handling audi
 ## Author
 
 Gauri Kumari
+
+## Link Demo
+
+spotify-clone-blue-omega.vercel.app
+
+
