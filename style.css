@@ -787,6 +787,7 @@
  .songs-list li{
     cursor: pointer;
     margin-bottom: 5px;
+   font-weight: normal;
 
  }
  #previousbtn{
@@ -816,11 +817,6 @@
 
   }
 
-
-
-  /* =========================
-   RESPONSIVE CSS
-   ========================= */
 
 @media (max-width: 768px) {
 
@@ -896,7 +892,6 @@
     }
 
 
-    /* LEFT SIDEBAR */
 
     .left {
         display: none;
@@ -1220,6 +1215,11 @@
         font-size: 10px;
     }
 
+    .songs-list li{
+        font-size: small;
+        font-weight: normal;
+    }
+
 }
 
 
@@ -1273,6 +1273,11 @@
     .song1-text2,
     .song1-text-date {
         min-width: 0;
+    }
+
+     .songs-list li{
+        font-size: small;
+        font-weight: normal;
     }
 }
 
