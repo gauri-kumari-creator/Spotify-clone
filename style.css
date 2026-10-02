@@ -1279,35 +1279,7 @@
         font-size: small;
         font-weight: normal;
     }
-}
-
-
-@media (max-width: 768px) {
-
-    .navdiv {
-        padding: 8px 5px;
-        box-sizing: border-box;
-    }
-
-    .navdiv nav {
-        gap: 10px;
-        min-height: 55px;
-        align-items: center;
-    }
-
-    .Spotify {
-        margin-top: 0;
-    }
-
-    img.home {
-        margin-left: 5px;
-    }
-
-    .searchbox {
-        margin-left: 5px;
-    }
-
-}
+} 
 
 
 @media (max-width: 768px) {
